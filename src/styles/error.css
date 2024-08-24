@@ -1,0 +1,30 @@
+.error-container {
+  width: 40vw;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 100px;
+}
+.error-text {
+  font-size: 48px;
+}
+.go-home-button {
+  width: max(20vw, 300px);
+  height: 60px;
+  border: 3px solid white;
+  border-radius: max(10vw, 150px);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  margin-left: 100px;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+.go-back-text {
+  font-size: 19px;
+}
